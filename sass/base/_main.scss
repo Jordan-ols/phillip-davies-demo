@@ -1,0 +1,34 @@
+// Fundamentals (aside from BS)
+.skip-link {
+    visibility:hidden;
+    margin-top:-999px;
+}
+
+.pd-desc-content {
+    min-height:440px;
+    padding:4em;
+}
+
+.site-title {
+    @include media-breakpoint-up(sm) {
+        margin: 10em auto 5em;
+        width: 50%;
+    }
+    
+    text-align: center;
+
+    h1, h2 {
+        color:#fff;
+    }
+}
+
+.section-title {
+    h2, h3 {
+        color: #000;
+    }
+}
+
+
+
+
+

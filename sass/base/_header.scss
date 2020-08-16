@@ -1,0 +1,43 @@
+// Fundamentals (aside from BS)
+.skip-link {
+    visibility: hidden;
+    margin-top: -999px;
+    position: absolute;
+}
+
+header {
+    position: relative;
+}
+
+// Background global class to stop repeats
+.bg-img-no-repeat {
+    @include media-breakpoint-up(lg) {
+        background-size: cover;
+    }
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pd-site-header-bg {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1000px;
+    background: #FFC400 0% 0% no-repeat padding-box;
+    background-image:url('../../assets/group-14.svg');
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.pd-header-assets {
+    @include media-breakpoint-down(lg) {
+        height:50px;
+        margin-top: 0;
+        img {
+            float: left;
+            width: 33.333%;
+        }
+    }
+    margin-top: -10em;
+}

@@ -16,9 +16,9 @@
         <footer class="site-footer-test">
             <div class="container">
                 <div class="footer-upper">
-                    <h3 class="display-3 text-center text-light">Ready to get started?</h3>
+                    <h3 class="display-3 text-center text-light font-weight-bold">Ready to get started?</h3>
                     <div class="get-in-touch col-md-6">
-                        <a class="btn default bg-white text-dark rounded-pill" href="/contact">Get in touch</a>
+                        <a class="btn default bg-white text-dark rounded-pill border-dark" href="/contact">Get in touch</a>
                     </div>
                 </div>
                 <div class="something-different" style="background-image:url('<?php echo PD_IMG_URI . 'sd-background.png'?>');">

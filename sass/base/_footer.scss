@@ -1,0 +1,32 @@
+footer {
+    background: rgba(#FFC400, 0.5) 0% 0% no-repeat padding-box;
+    position: relative;
+    width: 100%;
+
+    &:before {
+        background-image: url('../../assets/group-14.svg');
+        background-position: bottom;
+        background-size: cover;
+        content: "";
+        height: 100%;
+        opacity: 0.64;
+        position: absolute;
+        width: 100%;
+        z-index:-1;
+    }
+
+    .footer-upper {
+        padding: 10em 0;
+    }
+    .something-different {
+        @include media-breakpoint-down(md) {
+            h5 {
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+        background: transparent 0% 0% no-repeat padding-box;
+        background-size: cover;
+        border: 1px solid #00000000;
+    }
+}

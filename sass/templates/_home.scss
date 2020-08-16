@@ -1,0 +1,57 @@
+.homepage-content {
+    @include media-breakpoint-up(md) {
+        margin-top: 5em;
+    }
+    @include media-breakpoint-up(xl) {
+        margin-top: -25em;
+    }
+    margin-top: 5em;
+    position: relative;
+}
+
+.homepage-upper {
+    @include media-breakpoint-up(md) {
+        padding-top: 30em;
+    }
+    margin-bottom: 2em;
+    
+    width: 100%;
+}
+
+.homepage-center, .homepage-lower {
+    overflow: hidden;
+    .pd-carousel-upper-img {
+        margin-bottom: -40px;
+        position: relative;
+        z-index: 999999;   
+    }
+    .pd-carousel-lower-img {
+        @include media-breakpoint-up(md) {
+            margin-bottom: -100px;
+            margin-left: -150px;
+            position: relative;
+            z-index: 0;  
+        }
+    }
+}
+
+.homepage-content-bottom {
+    .pd-container {
+        height: 700px;
+        margin: 0 auto;
+        padding: 2em;
+        width: 92%;
+    }
+    .pd-desc-content {
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .inner-content {
+        background: transparent linear-gradient(180deg, #24B3B9 0%, #237F83 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px -12px 28px #00000029;
+        opacity: 1;
+    }
+    .row {
+        height: 100%;
+    }
+}
