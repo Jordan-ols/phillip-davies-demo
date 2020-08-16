@@ -40,6 +40,9 @@
                         <div class="row">
                             <!-- PD social links -->
                             <div class="social-header-icons col-md-6">
+                                <a class="social-icon twitter" href="">
+                                    <img src="<?php echo PD_IMG_URI . 'imdb-sml.png' ?>" alt="imdb logo"/>
+                                </a>
                                 <a class="social-icon linkedin" href="">
                                     <img src="<?php echo PD_IMG_URI . 'linkedin-logo.svg' ?>" alt="linkedin logo"/>
                                 </a>
@@ -63,8 +66,8 @@
                         <h2 class="strapline display-4">Scriptwriter</h2>
                     </div>
                     <div class="pd-header-assets">
-                        <img src="<?php echo PD_IMG_URI . 'love-monster-onward-journey-image-v2.png' ?>" class="" alt="Love monster onward journey image"/>
+                        <img src="<?php echo PD_IMG_URI . 'love-monster-onward-journey-image-v2.png' ?>" class="love-monster" alt="Love monster onward journey image"/>
                         <img src="<?php echo PD_IMG_URI . 'go-jetter-series-3-onward-journey-v2.png' ?>" class="" alt="Go jetter series 3 onward journey"/>
-                        <img src="<?php echo PD_IMG_URI . 'subtraction.png' ?>" class="" alt="Subtraction"/>
+                        <img src="<?php echo PD_IMG_URI . 'subtraction.png' ?>" class="subtraction" alt="Subtraction"/>
                     </div>
                 </header>
