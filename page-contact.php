@@ -1,7 +1,7 @@
 <?php
 
 /**
- * index.php
+ * page-contact.php
  *
  * PHP Version 7.0
  *
@@ -12,5 +12,7 @@
  * @license    http://opensource.org/licenses/gpl-license.php GNU Public License
  */
  get_header();
- get_template_part('templates/front', 'page');
+ get_template_part('templates/contact', 'page');
  get_footer(); ?>
+
+ 

@@ -3,10 +3,14 @@
 @import '../partials/fontstack';
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// Base
+// Base made up of fundamentals
 @import 'header';
 @import 'body';
 @import 'footer';
 
-// Site templates
-@import '../templates/home';
+// Modules
+@import '../modules/navigation';
+
+// Site templates and pages
+@import '../templates/front-page';
+@import '../templates/404';

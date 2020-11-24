@@ -1,10 +1,10 @@
 footer {
-    background: rgba(#FFC400, 0.5) 0% 0% no-repeat padding-box;
+    background: rgba($color_secondary, 0.5) 0% 0% no-repeat padding-box;
     position: relative;
     width: 100%;
 
     &:before {
-        background-image: url('../../assets/group-14.svg');
+        background-image: url('../../assets/img/group-14.svg');
         background-position: bottom;
         background-size: cover;
         content: "";
@@ -27,6 +27,6 @@ footer {
         }
         background: transparent 0% 0% no-repeat padding-box;
         background-size: cover;
-        border: 1px solid #00000000;
+        border: 1px solid $bg_body;
     }
 }

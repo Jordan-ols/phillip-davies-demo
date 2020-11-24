@@ -4,7 +4,7 @@
     margin-top:-999px;
 }
 
-.pd-desc-content {
+.jq-desc-content {
     min-height:440px;
     padding:4em;
 }
@@ -18,13 +18,13 @@
     text-align: center;
 
     h1, h2 {
-        color:#fff;
+        color:$color_text;
     }
 }
 
 .section-title {
     h2, h3 {
-        color: #000;
+        color:$color_text;
     }
 }
 
